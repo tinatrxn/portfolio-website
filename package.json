@@ -1,7 +1,12 @@
 {
     "name": "tina-portfolio-website",
     "version": "1.0.0",
+    "description": "my website!!",
+    "main": "server.js",
     "scripts": {
       "start": "node server.js"
+    },
+    "engines": {
+      "node": ">=10.0.0"
     }
   }
