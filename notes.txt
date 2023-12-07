@@ -1,0 +1,33 @@
+what projects to display:
+- tic-tac-toe with bot
+- choose what to eat - choose your own adventure
+- other projects + descriptions (finance/birthdays/movie db)
+- anime watch tracker - create an account + keep track of what anime/manga to watch - myanimelist api + flask
+- upcoming concerts chrome extension
+- random encouragement chrome extension
+- instagram bot to send me photocards of only skz
+    - https://www.youtube.com/watch?v=lgyszZhAZOI&t=153s
+- cat breed chooser
+    - asks a series of questions --> uses
+
+website css
+- https://www.youtube.com/watch?v=ldwlOzRvYOU
+
+flask + deployment
+- https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/
+- https://api-ninjas.com/api
+
+live search python
+- https://tutorial101.blogspot.com/2021/01/python-flask-live-data-search-using.html
+
+app responsive-ness
+- https://www.youtube.com/watch?v=J6uam9jEmDU&t=14s
+
+python flask movie app
+- https://www.youtube.com/watch?v=kcuQu8dsKfc
+
+https://stackoverflow.com/questions/6335681/how-do-i-get-the-latest-version-of-my-code
+
+virtual environment
+- python =m venv virtualenv-name
+- source name/bin/activate

@@ -1,0 +1,163 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: rgb(255, 255, 237);
+    text-align: center;
+}
+
+#nav-bar {
+    font-size: large;
+    overflow: hidden;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: rgb(216, 185, 185, 0.5);
+    padding-top: 5px;
+    top: auto;
+    padding-bottom: 5px;
+}
+
+#nav-bar a {
+    transition: 250ms;
+}
+
+#nav-bar a:hover {
+    color: rgb(129, 105, 120);
+}
+
+.nav {
+    justify-content: space-around;
+}
+
+.nav-link {
+    color: black;
+}
+
+h1 {
+    padding-bottom: 0.4em;
+}
+
+.main-container {
+    padding-top: 7em;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    background: rgb(255, 255, 237);
+}
+
+#question-container {
+    width: 60em;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+#question-text {
+    font-size: large;
+}
+
+#options-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.option-btn {
+    background-color: rgb(255, 214, 221);;
+    border: 1px solid rgb(170, 121, 129);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: black;
+    outline: none;
+}
+
+.option-btn:hover {
+    border-color: black;
+    background-color: pink;
+}
+
+#quiz-options {
+    padding-bottom: 3.5rem;
+    margin-left: 1em;
+}
+
+#quiz-options > button {
+    margin-right: 1em;
+}
+
+#movieResult {
+    background-color: white;
+    width: 85%;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0;
+    margin: auto;
+}
+
+#movieInfo {
+    text-align: center;
+    margin: auto;
+    height: 100%;
+}
+
+#movieInfo h3 {
+    font-style: italic;
+    padding: 0.5em 0 1em;
+}
+
+#movieInfo p {
+    padding: 1.5em 0 2em;
+    align-self: center;
+    margin: auto;
+}
+
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: rgb(255, 214, 221);
+}
+
+#moviePoster {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+#moviePoster img {
+    width: fit-content;
+    border-radius: 5px;
+}
+
+
+footer {
+    padding-top: 5rem;
+}
+
+@media only screen and (max-width: 700px) {
+    #quiz-options {
+        padding-bottom: 3rem;
+    }
+    .main-container {
+        width: 90%;
+        padding-top: 8em;
+    }
+    #movieInfo {
+        padding-bottom: 3em;
+    }
+}
