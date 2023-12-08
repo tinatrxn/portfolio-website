@@ -298,16 +298,23 @@ footer a {
     }
     #main-about {
         width: 90%;
+        padding-top: 6.5em;
         margin: auto;
     }
     #game-options {
         width: 75%;
+    }
+    #skills {
+        padding-top: 6.5em;
     }
     .skills-container {
         width: 95%;
         margin: auto;
         grid-template-columns: 50% 50%;
         max-width: fit-content;
+    }
+    #main-proj {
+        padding: 6.5em 0 7em;
     }
     .projects {
         width: 95%;
@@ -317,6 +324,7 @@ footer a {
     }
     #contact {
         width: 80%;
+        padding: 6.8em 0 6em;
         margin: auto;
     }
     form {
