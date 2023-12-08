@@ -132,6 +132,7 @@ button {
 
 .option-btn {
     width: 75%;
+    color: black;
     padding: 0.5em;
     border: 0.5px rgb(199, 171, 195) solid;
 }
@@ -162,7 +163,6 @@ button:active, .btn:active {
     flex-direction: column;
     align-items: center;
     gap: 0;
-
 }
 
 #game-options {
