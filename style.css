@@ -30,7 +30,7 @@ body {
 
 
 .main-intro {
-    padding-bottom: 20em;
+    padding-bottom: 14em;
     background-image: url(https://media.tenor.com/C2ghGRhKpiMAAAAi/snorlax-munchlax.gif);
     background-size: 40%;
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@ body {
 }
 
 .intro {
-    padding-top: 300px;
+    padding-top: 15em;
     display: flex;
     height: 100%;
 }
@@ -106,6 +106,8 @@ a {
 #main-about {
     padding-top: 6em;
     padding-bottom: 5em;
+    width: 95%;
+    margin: auto;
 }
 
 #totoro {
@@ -170,7 +172,8 @@ button:active, .btn:active {
 }
 
 .headshot {
-    width: 25em;
+    width: 100%;
+    max-width: 27em;
     border-radius: 80px;
 }
 
@@ -180,6 +183,9 @@ button:active, .btn:active {
     text-align: center;
 }
 
+#skills p {
+    padding-bottom: 1em;
+}
 
 .skills-container {
     padding: 5rem;
@@ -202,7 +208,7 @@ button:active, .btn:active {
 
 .projects {
     padding-top: 2em;
-    width: 95%;
+    width: 98%;
     margin: auto;
 }
 
@@ -288,7 +294,6 @@ footer a {
         margin-top: 20px;
     }
     .headshot {
-        width: 20em;
         padding-top: 2em;
     }
     #main-about {
@@ -304,8 +309,15 @@ footer a {
         grid-template-columns: 50% 50%;
         max-width: fit-content;
     }
+    .projects {
+        width: 95%;
+    }
     .card-body h3 {
         padding-bottom: 0.5em;
+    }
+    #contact {
+        width: 80%;
+        margin: auto;
     }
     form {
         width: 85%;
