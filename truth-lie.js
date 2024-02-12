@@ -8,10 +8,6 @@ document.getElementById("truthGame").addEventListener('click', function() {
     }
 });
 
-// waht to do next time
-    // edit ig bot video
-    // cut out authenticator + block out username
-
 
 const truths = [
     {
@@ -109,7 +105,7 @@ const lies = [
     },
     {
         text: "My favourite anime is Sailor Moon.",
-        comment: "I always wanted to be Sailor Moon growing up, but I actually never really watched the show. &#x1F616;",
+        comment: "I always wanted to be Sailor Moon growing up, but I actually never watched the whole show. &#x1F616;",
         truth: false
     },
     {
@@ -139,7 +135,7 @@ const lies = [
     },
     {
         text: "I've never won a contest or giveaway.",
-        comment: "The one and only time I've won is from a Twitch streamer, where I got a $100 Amazon gift card! &#x1F389;",
+        comment: "The one and only time I've won is from a Twitch stream, where I got a $100 Amazon gift card! &#x1F389;",
         truth: false
     },
     {
