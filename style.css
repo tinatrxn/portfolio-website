@@ -117,7 +117,7 @@ a {
 button {
     width: 31%;
     border-radius: 10px !important;
-    background-color: rgb(255, 222, 242);
+    background-color: rgba(255, 222, 242, 0.829);
     text-align: center;
     margin: 0.5em 0;
     transition: background-color 250ms;
