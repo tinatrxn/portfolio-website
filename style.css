@@ -127,25 +127,27 @@ button {
     transition: background-color 250ms;
     background-color: rgb(255, 222, 242, 0.829);
     color: black;
-    border: 1px rgb(199, 171, 195) solid;
+    border: 2px rgb(199, 171, 195) solid;
 }
 
 .option-btn {
     width: 75%;
     color: black;
     padding: 0.5em;
-    border: 0.5px rgb(199, 171, 195) solid;
+    border: 2px rgb(199, 171, 195) solid;
 }
 
 button:hover, button:focus-visible,
 .btn:hover, .btn:focus-visible {
     background: rgb(212, 168, 195, 0.829);
     color: black;
+    border: 2px rgb(199, 171, 195) solid;
 }
 
 button:active, .btn:active {
     background-color: rgb(163, 129, 150) !important;
     color: aliceblue;
+    border: 2px rgb(199, 171, 195) solid !important;
 }
 
 #game-container {
