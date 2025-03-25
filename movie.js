@@ -133,6 +133,8 @@ function pickSorting() {
 };
 
 async function pickMovie() {
+
+
   const genre = genrePicker(answers[0]);
   const language = languagePicker(answers[1]);
   const sorting = pickSorting();
